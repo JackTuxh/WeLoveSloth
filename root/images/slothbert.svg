@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 351 322" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0"/>
+      <feOffset dx="0" dy="10"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.3)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip-0">
+      <circle style="stroke-linecap: round; stroke-linejoin: round; fill: rgb(255, 197, 103); stroke: rgb(186, 218, 85); paint-order: stroke; stroke-width: 54.6891px;" transform="matrix(0.648582, 0, 0, 0.594811, -65.093109, -6.200575)" cx="678.8" cy="477.6" r="164.417">
+        <title>Base head</title>
+      </circle>
+    </clipPath>
+    <clipPath id="clip-1">
+      <circle style="stroke-linecap: round; stroke-linejoin: round; fill: rgb(255, 255, 255); stroke-width: 6px; stroke: rgb(0, 0, 0);" cx="409.679" cy="272.285" r="16.421"/>
+    </clipPath>
+    <linearGradient id="color-0">
+      <title>Eye Whites</title>
+      <stop style="stop-color: rgb(242, 242, 242);"/>
+    </linearGradient>
+    <clipPath id="clip-2">
+      <circle style="stroke-linecap: round; stroke-linejoin: round; fill: rgb(255, 255, 255); stroke-width: 6px; stroke: rgb(0, 0, 0);" cx="409.679" cy="272.285" r="16.421"/>
+    </clipPath>
+  </defs>
+  <g transform="matrix(0.699225, 0, 0, 0.699225, -78.118936, -172.932803)" style="filter: url(#drop-shadow-filter-0);">
+    <title>Heart</title>
+    <path d="M 254.62 253.64 C 117.17 251.169 -10.02 466.12 360.55 688.98 C 361.55 689.602 361.645 689.502 362.925 688.98 C 745.445 458.93 597.595 237.34 455.551 254.59 C 400.178 261.315 374.048 292.046 361.738 318.478 C 349.428 292.046 323.297 261.314 267.925 254.59 C 263.486 254.051 259.059 253.72 254.625 253.64 L 254.62 253.64 Z" stroke-linejoin="round" style="fill: rgb(218, 103, 77); stroke: rgb(122, 64, 55); stroke-width: 7.15077px;"/>
+  </g>
+  <g transform="matrix(0.468894, 0, 0, 0.468895, -30.647877, 59.971314)">
+    <title>Sloth</title>
+    <circle style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px; fill: rgb(110, 91, 61);" transform="matrix(1.383217, 0, 0, 1.268538, -500.733856, -390.156799)" cx="678.8" cy="477.6" r="164.417">
+      <title>Base head</title>
+    </circle>
+    <circle style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px; fill: rgb(204, 174, 120);" transform="matrix(1.272285, 0, 0, 0.945057, -425.433136, -207.1689)" cx="678.8" cy="477.6" r="164.417">
+      <title>Head Tan</title>
+    </circle>
+  </g>
+  <g style="clip-path: url(#clip-0);" transform="matrix(1, 0, 0, 1, -200.345782, -116.770693)">
+    <title>Eye Darks</title>
+    <ellipse style="fill: rgb(75, 63, 40);" cx="434.414" cy="297.977" rx="56.195" ry="31.684" transform="matrix(0.979189, 0.202948, -0.202948, 0.979189, 80.100415, -102.039081)">
+      <title>Right</title>
+    </ellipse>
+    <ellipse style="fill: rgb(75, 63, 40);" cx="434.143" cy="298.034" rx="56.195" ry="31.684" transform="matrix(-0.979189, 0.202948, 0.202948, 0.979189, 669.622585, -102.039691)">
+      <title>Left</title>
+    </ellipse>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -200.345859, -116.770693)">
+    <title>Nose</title>
+    <path d="M 370.149 317.721 C 364.686 317.721 360.258 311.389 360.258 303.577 C 360.258 295.765 370 292.916 375 292.916 C 380 292.916 390.072 296.616 390.072 303.906 C 390.072 311.718 385.644 318.05 380.181 318.05 C 378.269 318.05 376.621 317.136 375 316.905 C 373.145 317.177 371.899 317.721 370.149 317.721 Z" style="fill: rgb(43, 43, 43);">
+      <title>Nose path</title>
+    </path>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -198.43938, -116.770693)" style="">
+    <title>Eyes</title>
+    <g style="clip-path: url(#clip-1);" transform="matrix(1, 0, 0, 1, 0.000001, 0)">
+      <title>RIghtEye</title>
+      <circle style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px; fill: url(#color-0);" cx="409.679" cy="272.285" r="16.421">
+        <title>EyeWhite</title>
+      </circle>
+      <circle style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px; fill: rgb(43, 43, 43);" cx="409.679" cy="272.285" r="16.421" transform="matrix(0.778664, 0, 0, 0.955056, 84.100182, 12.437619)">
+        <title>Pupil</title>
+      </circle>
+    </g>
+    <g style="clip-path: url(#clip-2);" transform="matrix(-1, 0, 0, 1, 746.516052, 0)">
+      <title>LeftEye</title>
+      <circle style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px; fill: url(#color-0);" cx="409.679" cy="272.285" r="16.421">
+        <title>EyeWhite</title>
+      </circle>
+      <circle style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px; fill: rgb(43, 43, 43);" cx="409.679" cy="272.285" r="16.421" transform="matrix(0.778664, 0, 0, 0.955058, 84.100182, 12.437006)">
+        <title>Pupil</title>
+      </circle>
+    </g>
+  </g>
+  <path style="stroke-linejoin: round; fill: none; stroke: rgb(43, 43, 43); stroke-linecap: round; stroke-width: 6px; stroke-dashoffset: -1px;" d="M 159.409 218.336 C 159.409 218.336 170.332 220.494 174.257 220.6 C 178.182 220.706 185.394 221.024 193.775 217.948 C 202.156 214.872 205.762 210.946 208.414 208.295 C 211.066 205.644 210.327 204.12 210.433 204.014">
+    <title>Mouth</title>
+  </path>
+</svg>
